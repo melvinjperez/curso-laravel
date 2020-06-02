@@ -2,8 +2,9 @@
 
 namespace App\Providers;
 
-use Facade\FlareClient\View;
+
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\View;
 
 class AppServiceProvider extends ServiceProvider
 {
