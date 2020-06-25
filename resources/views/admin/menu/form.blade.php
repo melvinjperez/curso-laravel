@@ -1,7 +1,7 @@
 <div class="form-group row">
     <label for="label" class="col-lg-3 col-form-label requerido">Etiqueta</label>
     <div class="col-lg-8">
-      <input type="text" name="label" id="label" class="form-control" value="{{old('label')}}"/> 
+      <input type="text" name="label" id="label" class="form-control" value="{{old('label')}}" required/> 
     </div>
 </div>
 <div class="form-group row">  
@@ -15,4 +15,8 @@
   <div class="col-lg-8">
     <input type="text" name="icono" id="icono" class="form-control" value="{{old('icono')}}" />
   </div>    
+  <div class="col-lg-1">
+    <span id="mostrar-icono" class="fas " {{old('icono')}}></span>
+  </div>    
+</div>
 </div>

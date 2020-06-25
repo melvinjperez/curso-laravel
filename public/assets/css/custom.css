@@ -2,3 +2,6 @@ label.requerido:after {
     content: " *";
     color: #fff000;
 }
+.help-block.help-block-error {
+    color: red !important;
+}

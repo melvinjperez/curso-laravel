@@ -2,6 +2,9 @@
 @section('titulo')
    Area Menús
 @endsection
+@section('scripts')
+    <script src = "{{asset("assets/pages/scripts/admin/menu/crear.js")}}"></script>
+@endsection
 
 @section('contenido')
 <div class="row">
